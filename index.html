@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz</title>
+</head>
+
+<body>
+    <div class="container">
+        <div id="quiz">
+            <h2 id="quizQuestion"></h2>
+            <div id="quizOptions"></div>
+            <button id="nextbtn" class="btn">Suivant <div id="after"></div></button>
+        </div>
+        <div id="resultat" style="display: none;">
+            <h2>Résultat</h2>
+            <p id="mention"></p>
+            <p>Score : <span id="score"></span></p>
+            <bnt id="restart" class="btn" onclick="location.reload()">Recommencer</bnt>
+        </div>
+        <p id="copy">&copy; Fanasina ft Rindra</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
